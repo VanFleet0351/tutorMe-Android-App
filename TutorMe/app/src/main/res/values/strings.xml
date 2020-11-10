@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">TutorMe</string>
+    <string name="action_settings">Settings</string>
+    <string name="create_account">Create Account</string>
+    <string name="log_in_with_facebook">log in with facebook</string>
+    <string name="background_image">background image</string>
+    <string name="sign_in_text">Already have an account? <b><u>sign in</u></b> </string>
+
+    <!-- RegistrationActivity Strings -->
+    <string name="firstNameLbl">First Name</string>
+    <string name="firstNamePlaceholder">John</string>
+    <string name="lastNamePlaceholder">Doe</string>
+    <string name="lastNameLbl">Last Name</string>
+    <string name="emailLbl">E-mail</string>
+    <string name="emailPlaceholder">john.doe@email.com</string>
+    <string name="passwordLbl">Password</string>
+    <string name="passwordConfLabel">Confirm Password</string>
+    <string name="schoolLbl">School</string>
+    <string name="submitBtn">SUBMIT</string>
+
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_application_id" translatable="false">253050605628339</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb253050605628339</string>
+
+    <!-- SwipeActivity/UserListActivity -->
+    <string name="user_avatar_description">A user\'s avatar</string>
+    <string name="settingsBtn">Settings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="class_list_tutor">Tutor</string>
+    <string name="class_list_student">Student</string>
+    <string name="user_list_delete_label">Delete Class</string>
+
+    <!-- SettingsActivity -->
+    <string name="profile_picture_url">Profile Picture URL</string>
+    <string name="currency">Currency</string>
+    <string name="edit_button">Edit</string>
+    <string name="delete_acc_button">Delete Account</string>
+
+    <!-- editSettingsActivity -->
+    <string name="save_button">Save</string>
+    <string name="edit_select_school">Select School</string>
+    <string name="edit_school_placeholder">Select your school</string>
+    <string name="edit_settings_url_placeholder">URL</string>
+
+    <!-- draw_menu.xml -->
+    <string name="nav_chats">My Chats</string>
+    <string name="nav_add_class">Add a Class</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_sign_out_label">Sign Out</string>
+    <string name="nav_account">Account</string>
+
+    <!--  nav_header.xml  -->
+    <string name="draw_placeholder">placeholder</string>
+    <string name="draw_profile_pic_desc">This is your profile picture</string>
+
+    <!--  activity_school_list.xml  -->
+    <string name="correct_school">Select suggested school</string>
+    <string name="add_new_school">Add a school</string>
+    <string name="suggested_school_label">"GPS-based suggested school: "</string>
+    <string name="suggested_school_placeholder">None</string>
+
+    <!--  activity_add_school.xml  -->
+    <string name="add_school_header">Add your school</string>
+    <string name="add_school_name_label">University Name</string>
+    <string name="add_school_short_name_label">Shortened Uni Name</string>
+    <string name="uniNamePlaceholder">The Ohio State University</string>
+    <string name="shortUniNamePlaceholder">OSU</string>
+    <string name="locationLabel">Location</string>
+    <string name="locationPlaceholder">Unable to fetch location. Please enable Location permissions</string>
+    <string name="add_school_button">Add School</string>
+
+    <!--  activity_add_class.xml  -->
+    <string name="add_class_header">Add your class</string>
+    <string name="add_class_major_label">Major</string>
+    <string name="add_class_course_number_label">Course Number</string>
+    <string name="addClassMajorHint">CSE</string>
+    <string name="addClassCourseNumHint">5236</string>
+    <string name="add_class_tutor_q">Are you tutoring this class?</string>
+    <string name="add_class_button">Add Class</string>
+    <string name="add_class_yes">Yes</string>
+    <string name="add_class_no">No</string>
+    <string name="add_class_price_hint">10.00</string>
+    <string name="add_class_price_label">Tutor rate (N/A if not tutoring)</string>
+    <string name="add_class_duplicate">You have already added this class!</string>
+    <!-- delete_class_window.xml -->
+    <string name="delete_class_prompt">Click this box delete the class</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="content_description_profile_picture">profile picture</string>
+
+</resources>

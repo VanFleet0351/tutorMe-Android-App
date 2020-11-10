@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tutorme">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".EditSettingsActivity" />
+        <activity android:name=".AddSchoolActivity" />
+        <activity android:name=".AddClassActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".SchoolListActivity" />
+        <activity android:name=".RegistrationActivity" />
+        <activity
+            android:name=".swipe_view.SwipeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".swipe_view.UserListActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ChatListActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

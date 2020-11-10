@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditSettingsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="24dp"
+                android:text="@string/add_school_header"
+                android:textColor="#030000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/add_school_name_label"
+                android:textColor="#030000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/add_school_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/uniNamePlaceholder"
+                android:inputType="none" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/add_school_short_name_label"
+                android:textColor="#030000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/add_school_short_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/shortUniNamePlaceholder"
+                android:inputType="none" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/locationLabel"
+                android:textColor="#030000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/add_school_location"
+                android:layout_width="364dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/locationPlaceholder" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <Button
+                    android:id="@+id/add_school_add_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:text="@string/add_school_button" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

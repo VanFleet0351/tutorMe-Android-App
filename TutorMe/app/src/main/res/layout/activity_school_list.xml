@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recViewSchoolList"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="100dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/recViewSchoolList"
+        tools:layout_editor_absoluteX="0dp">
+
+        <Button
+            android:id="@+id/select_suggested_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/correct_school"
+            app:layout_constraintEnd_toStartOf="@+id/add_new_school"
+            app:layout_constraintStart_toStartOf="@+id/recViewSchoolList"
+            app:layout_constraintTop_toBottomOf="@+id/recViewSchoolList" />
+
+        <Button
+            android:id="@+id/add_new_school"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_new_school"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/select_suggested_btn" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/school_list_suggest_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:text="@string/suggested_school_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recViewSchoolList" />
+
+    <TextView
+        android:id="@+id/suggested_school"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/suggested_school_placeholder"
+        app:layout_constraintStart_toEndOf="@id/school_list_suggest_label"
+        app:layout_constraintTop_toBottomOf="@+id/recViewSchoolList" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

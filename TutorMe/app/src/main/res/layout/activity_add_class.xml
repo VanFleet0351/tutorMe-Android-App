@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditSettingsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="24dp"
+                android:text="@string/add_class_header"
+                android:textColor="#030000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/add_class_major_label"
+                android:textColor="#030000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/add_class_major_placeholder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/addClassMajorHint"
+                android:inputType="none" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/add_class_course_number_label"
+                android:textColor="#030000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/add_class_course_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/addClassCourseNumHint"
+                android:inputType="none|number" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/add_class_tutor_q"
+                android:textColor="#030000"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/add_class_radio_group"
+                android:layout_width="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/add_class_tutor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/add_class_yes" />
+
+                <RadioButton
+                    android:id="@+id/add_class_student"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/add_class_no" />
+
+                <TextView
+                    android:id="@+id/add_class_price_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/add_class_price_label"
+                    android:textColor="#030000"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/add_class_tutor_price_placeholder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:text="@string/add_class_price_hint"
+                    tools:ignore="Autofill,LabelFor" />
+
+                <TextView
+                    android:id="@+id/add_class_error"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@android:color/holo_red_dark" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <Button
+                    android:id="@+id/add_class_add_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:text="@string/add_class_button" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

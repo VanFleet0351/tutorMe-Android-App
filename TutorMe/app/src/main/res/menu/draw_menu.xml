@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_chat"
+            android:title="@string/nav_chats" />
+        <item
+            android:id="@+id/nav_add_class"
+            android:icon="@drawable/ic_add"
+            android:title="@string/nav_add_class" />
+    </group>
+    <item android:title="@string/nav_account">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/nav_settings" />
+            <item
+                android:id="@+id/nav_sign_out"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/nav_sign_out_label" />
+        </menu>
+    </item>
+</menu>
