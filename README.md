@@ -10,6 +10,6 @@ An android application that matches students and tutors.
 
 
 ![friends list](img/friendslist.png)
-###### friends list preview
+
 
 [Home](https://vanfleet0351.github.io/Kyle-Van-Fleet-Portfolio/)
