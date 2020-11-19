@@ -10,12 +10,12 @@ TutorMe was developed in a 3 person team as part of a semester long class projec
 ### Technology Used:
 * Kotlin
 * Android Studios
-* [Glide] (https://github.com/bumptech/glide)
-* [Firebase] (https://firebase.google.com)
-* [CircleImageView] (https://github.com/hdodenhof/CircleImageView)
-* [Groupie RecyclerView] (https://github.com/lisawray/groupie)
-* [Android Jetpack] (https://developer.android.com/jetpack)
-* [Picasso] (https://github.com/square/picasso)
+* [Glide](https://github.com/bumptech/glide)
+* [Firebase](https://firebase.google.com)
+* [CircleImageView](https://github.com/hdodenhof/CircleImageView)
+* [Groupie RecyclerView](https://github.com/lisawray/groupie)
+* [Android Jetpack](https://developer.android.com/jetpack)
+* [Picasso](https://github.com/square/picasso)
 
 ![login verical](img/loginvertical.png)
 
