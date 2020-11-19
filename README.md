@@ -34,6 +34,10 @@ The students can also use our app to meet with other students to form study grou
 
 ![message vertical](img/messagevertical.png)![friends list](img/friendslist.png)
 
+* **Profile Creation:** In the profile creation view of the app includes profile picture selection, basic information entry, and school selection with recommendations based on gps location. The profile picture selection allows to user to select a perviously take photo on their phone or take a new one.
+
 ![profile](img/profile.png)
+
+* **Background Threading:** Generally background thearding to improve responsivness of the application.
 
 [Home](https://vanfleet0351.github.io/Kyle-Van-Fleet-Portfolio/)
