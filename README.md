@@ -32,10 +32,7 @@ The students can also use our app to meet with other students to form study grou
 * **Messaging Feature:** The messaging feature in this app functions similar to a how a typical text messaging application works. Users can send messages back and forth to each other with the most recent message being displayed at the bottom of a vertical list of messages. Messages that a users sends appear on the right hand side of the screen and messages that are recieved appear on the left hand side. Messages appear in realtime while the app refreshes in the background and the list of messages automatically scrolls to the bottom to show the newly arrived message. When the user clicks the text box to enter a new message the the list automatically scrolls to display the most recent messages. All messages are stored in a no-sql data via firebase.
 
 
-![message vertical](img/messagevertical.png)
-
-
-![friends list](img/friendslist.png)
+![message vertical](img/messagevertical.png)![friends list](img/friendslist.png)
 
 ![profile](img/profile.png)
 
