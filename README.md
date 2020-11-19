@@ -1,7 +1,7 @@
 [Home](https://vanfleet0351.github.io/Kyle-Van-Fleet-Portfolio/)
 
 # TutorMe Android App
-TutorMe was developed in a 3 person team as part of a semester long class project. The team was charged with designing and developing a mobile application that uniquely met a clear need in today’s markets, was well-designed, had a UI, have at least three domain objects, have data that persists throughout multiple user sessions, use at least one Internet-based service, and Must use at least one device sensor.
+TutorMe was developed in a 3 person team as part of a semester long class project In [CSE 5236](http://web.cse.ohio-state.edu/~champion.17/5236/). The team was charged with designing and developing a mobile application that uniquely met a clear need in today’s markets, was well-designed, had a UI, have at least three domain objects, have data that persists throughout multiple user sessions, use at least one Internet-based service, and Must use at least one device sensor.
 
 ### Collaborators
 * [Andy Cui](https://github.com/acui97) (andrewlcui@gmail.com)
