@@ -38,6 +38,7 @@ The students can also use our app to meet with other students to form study grou
 
 ![profile](img/profile.png)
 
-* **Background Threading:** Generally background thearding to improve responsivness of the application.
+* **Background Threading:** General background thearding to improve responsivness of the application.
+* **View Design and Creation:** General design and creation of the different views seen such as the login view, message view, settings view, etc.
 
 [Home](https://vanfleet0351.github.io/Kyle-Van-Fleet-Portfolio/)
