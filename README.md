@@ -3,9 +3,19 @@
 # TutorMe Android App
 TutorMe was developed in a 3 person team as part of a semester long class project. The team was charged with designing and developing a mobile application that uniquely met a clear need in today’s markets, was well-designed, had a UI, have at least three domain objects, have data that persists throughout multiple user sessions, use at least one Internet-based service, and Must use at least one device sensor.
 
-### Contributors
+### Collaborators
 * [Andy Cui](https://github.com/acui97) (andrewlcui@gmail.com)
 * [Robert Yost](https://github.com/RobertYost) (bobby.9202@gmail.com)
+
+### Technology Used:
+* Kotlin
+* Android Studios
+* [Glide] (https://github.com/bumptech/glide)
+* [Firebase] (https://firebase.google.com)
+* [CircleImageView] (https://github.com/hdodenhof/CircleImageView)
+* [Groupie RecyclerView] (https://github.com/lisawray/groupie)
+* [Android Jetpack] (https://developer.android.com/jetpack)
+* [Picasso] (https://github.com/square/picasso)
 
 ![login verical](img/loginvertical.png)
 
@@ -27,6 +37,6 @@ The students can also use our app to meet with other students to form study grou
 
 ![friends list](img/friendslist.png)
 
-![profile](img/profile)
+![profile](img/profile.png)
 
 [Home](https://vanfleet0351.github.io/Kyle-Van-Fleet-Portfolio/)
