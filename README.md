@@ -3,6 +3,12 @@
 # TutorMe Android App
 TutorMe was developed in a 3 person team as part of a semester long class project. The team was charged with designing and developing a mobile application that uniquely met a clear need in today’s markets, was well-designed, had a UI, have at least three domain objects, have data that persists throughout multiple user sessions, use at least one Internet-based service, and Must use at least one device sensor.
 
+### Contributors
+* [Andy Cui](https://github.com/acui97) (andrewlcui@gmail.com)
+* [Robert Yost](https://github.com/RobertYost) (bobby.9202@gmail.com)
+
+![login verical](img/loginvertical.png)
+
 ### About the App
 Our App helps tutors and students seeking a tutor to easily find each other. With our app, tutors will no longer have to print and post fliers with their phone numbers all around campus. Students who are struggling with a class will no longer have to desperately search bulletin boards on campus hoping to find a tutor that can help them. Tutors only need to create an account and list the subjects they are tutoring, and students only need to create and account and list the classes they need help with. 
 
@@ -11,7 +17,9 @@ After creating an account, a student will be presented with a group of tutors th
 The students can also use our app to meet with other students to form study groups. A student wishing to start a study group just needs to create a group on our app and all other students searching for study groups in the same subject will have the option to join their study group.
 
 
-![login verical](img/loginvertical.png)
+### My Contributions
+
+* **Messaging Feature:** The messaging feature in this app functions similar to a how a typical text messaging application works. Users can send messages back and forth to each other with the most recent message being displayed at the bottom of a vertical list of messages. Messages that a users sends appear on the right hand side of the screen and messages that are recieved appear on the left hand side. Messages appear in realtime while the app refreshes in the background and the list of messages automatically scrolls to the bottom to show the newly arrived message. When the user clicks the text box to enter a new message the the list automatically scrolls to display the most recent messages. All messages are stored in a no-sql data via firebase.
 
 
 ![message vertical](img/messagevertical.png)
@@ -19,5 +27,6 @@ The students can also use our app to meet with other students to form study grou
 
 ![friends list](img/friendslist.png)
 
+![profile](img/profile)
 
 [Home](https://vanfleet0351.github.io/Kyle-Van-Fleet-Portfolio/)
