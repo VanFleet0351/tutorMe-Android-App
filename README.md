@@ -1,7 +1,7 @@
 [Home](https://vanfleet0351.github.io/Kyle-Van-Fleet-Portfolio/)
 
 # TutorMe Android App
-TutorMe was developed in a 3 person team as part of a semester long class project in [CSE 5236](http://web.cse.ohio-state.edu/~champion.17/5236/). Our team was charged with designing and developing a mobile application that uniquely met a clear need in today’s market, was well-designed, and included the following: a UI, data that persists throughout multiple user sessions, one Internet-based service, and one device sensor.
+TutorMe was developed in a 3 person team as part of a semester long class project in [CSE 5236](http://web.cse.ohio-state.edu/~champion.17/5236/) at The Ohio State University. Our team was charged with designing and developing a mobile application that uniquely met a clear need in today’s market, was well-designed, and included the following: a UI, data that persists throughout multiple user sessions, one Internet-based service, and one device sensor.
 
 ### Collaborators
 * [Andy Cui](https://github.com/acui97) (andrewlcui@gmail.com)
